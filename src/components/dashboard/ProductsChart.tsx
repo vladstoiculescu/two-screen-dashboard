@@ -13,7 +13,7 @@ const data = [
 
 export function ProductsChart() {
   return (
-    <div className="w-full h-[250px]">
+    <div className="w-full h-full">
       <ResponsiveContainer width="100%" height="100%">
         <BarChart
           data={data}

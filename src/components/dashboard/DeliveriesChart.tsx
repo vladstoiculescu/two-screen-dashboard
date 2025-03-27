@@ -14,7 +14,7 @@ const data = [
 
 export function DeliveriesChart() {
   return (
-    <div className="w-full h-[300px]">
+    <div className="w-full h-full">
       <ResponsiveContainer width="100%" height="100%">
         <BarChart
           data={data}

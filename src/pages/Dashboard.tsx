@@ -51,7 +51,7 @@ export default function Dashboard() {
 
   return (
     <DashboardLayout>
-      <div className="space-y-6 w-full">
+      <div className="space-y-8 w-full">
         <div>
           <Card className="bg-slate-800/40 border-slate-700 text-white">
             <CardHeader>
@@ -105,12 +105,14 @@ export default function Dashboard() {
                 </div>
               </div>
               
-              <DeliveriesChart />
+              <div className="h-[400px]">
+                <DeliveriesChart />
+              </div>
             </CardContent>
           </Card>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <Card className="bg-slate-800/40 border-slate-700 text-white">
             <CardHeader>
               <CardTitle className="text-lg font-medium">DELIVERY DATES</CardTitle>
@@ -145,7 +147,9 @@ export default function Dashboard() {
                   </label>
                 </div>
               </div>
-              <ProductsChart />
+              <div className="h-[300px]">
+                <ProductsChart />
+              </div>
             </CardContent>
           </Card>
         </div>
