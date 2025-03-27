@@ -51,7 +51,7 @@ export default function Dashboard() {
 
   return (
     <DashboardLayout>
-      <div className="space-y-6">
+      <div className="space-y-6 w-full">
         <div>
           <Card className="bg-slate-800/40 border-slate-700 text-white">
             <CardHeader>
@@ -110,7 +110,7 @@ export default function Dashboard() {
           </Card>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <Card className="bg-slate-800/40 border-slate-700 text-white">
             <CardHeader>
               <CardTitle className="text-lg font-medium">DELIVERY DATES</CardTitle>

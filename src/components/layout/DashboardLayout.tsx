@@ -124,8 +124,8 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
         </Sidebar>
 
         {/* Main Content */}
-        <main className="flex-1 overflow-y-auto">
-          <div className="p-4">
+        <main className="flex-1 overflow-y-auto w-full">
+          <div className="p-4 max-w-full mx-auto">
             <div className="flex justify-between items-center mb-6">
               <div></div>
               <Button className="bg-blue-600 hover:bg-blue-700 text-white flex items-center gap-2">
