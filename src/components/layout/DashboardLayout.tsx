@@ -18,7 +18,7 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
       {/* Top Navbar */}
       <header className="border-b border-slate-700 bg-[#1a2232] text-white p-2 flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <SidebarTrigger asChild>
+          <SidebarTrigger>
             <Button variant="ghost" size="icon" className="text-white">
               <Menu className="h-5 w-5" />
             </Button>
